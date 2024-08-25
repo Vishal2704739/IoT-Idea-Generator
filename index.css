@@ -1,0 +1,132 @@
+
+
+
+
+
+
+.life {
+  color: var(--color-darkorchid-100);
+}
+.bring-your-ideas-container {
+  top: 34%;
+  left: 10%;
+  font-size: var(--font-size-50xl);
+  display: inline-block;
+  width: 100vh;
+}
+.about-us,
+.bring-your-ideas-container,
+.home,
+.life1 {
+  position: absolute;
+}
+.home{
+  font-weight: 800;
+}
+.life1 {
+  display: none;
+  position: relative;
+  top: 49%;
+  left: 33%;
+  font-size: var(--font-size-50xl);
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.homepage-child {
+  left: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d052fc;
+}
+.homepage-child,
+.homepage-item {
+  position: absolute;
+  top: 70%;
+  margin-left: 2%;
+  border-radius: var(--br-xl);
+  width: 11%;
+  height: 7%;
+  cursor: pointer;
+}
+.homepage-child {
+  left: 108px;
+  background-color: #d052fc;
+}
+.homepage-item {
+  left: 9%;
+  border: 1px solid #ea56c1;
+  box-sizing: border-box;
+}
+.homepage-item,
+.saved-projects{
+  display: none;
+}
+.new-project,
+.saved-projects {
+  position: absolute;
+  top: 71.3%;
+  left: 7.4%;
+  margin-left: 3%;
+  font-size: 20px; /* Increased font size */
+  font-weight:500;
+  color: black; /* or any other initial color */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.new-project:hover,
+.saved-projects:hover {
+  color: white; /* Hover color change to white */
+}
+.saved-projects {
+  left: 314px;
+}
+.inspire-others-icon {
+  position: absolute;
+  top: 11%;
+  /* left: 674px; */
+  right: 5%;
+  /* width: 100vh; */
+  /* height: 478px; */
+  overflow: hidden;
+}
+
+.pattarai-logo-white-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 94px;
+  height: 76px;
+  object-fit: cover;
+}
+.marv {
+  position: absolute;
+  top: 76px;
+  left: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.pattarai-logo-white-1-parent {
+  position: absolute;
+  top: 8px;
+  left: 22px;
+  width: 94px;
+  height: 100px;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    112.9deg,
+    #357af6,
+    #8431f0 36.94%,
+    #7000ff 67.94%,
+    #ea56c0
+  );
+  height: 100vh;
+  overflow: hidden  ;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
